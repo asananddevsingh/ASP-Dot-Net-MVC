@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part-003-MvcDemo", "Part-003-MvcDemo\Part-003-MvcDemo.csproj", "{5F06833C-664C-4DEC-A2C0-BD93AFCA7352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part-003-WebAppDemo", "..\Part-003-WebAppDemo\Part-003-WebAppDemo\Part-003-WebAppDemo.csproj", "{E7FDE1CC-AFBB-419D-9DA8-2A6C2D59E5D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F06833C-664C-4DEC-A2C0-BD93AFCA7352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F06833C-664C-4DEC-A2C0-BD93AFCA7352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F06833C-664C-4DEC-A2C0-BD93AFCA7352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F06833C-664C-4DEC-A2C0-BD93AFCA7352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FDE1CC-AFBB-419D-9DA8-2A6C2D59E5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FDE1CC-AFBB-419D-9DA8-2A6C2D59E5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FDE1CC-AFBB-419D-9DA8-2A6C2D59E5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FDE1CC-AFBB-419D-9DA8-2A6C2D59E5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

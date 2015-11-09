@@ -9,6 +9,13 @@ namespace Part_008_DataAccessByEntityFramework.Controllers
 {
     public class EmployeeController : Controller
     {
+        public ActionResult Index()
+        {
+            EmployeeContext employeeContext = new EmployeeContext();
+            List<Employee> employees = employeeContext.Employees.ToList();
+            return View(employees);
+        }
+
         public ActionResult Details(int id = 1)
         {
             EmployeeContext employeeContext = new EmployeeContext();
